@@ -69,7 +69,7 @@ const Navbar = () =>{
                     Inicio
                 </Link>
                 <Link to="/shop" className="hover:underline">
-                    Shop
+                    Tienda
                 </Link>
                 <Link to="/" className="hover:underline">
                     Contacto
