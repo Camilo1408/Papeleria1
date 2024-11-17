@@ -6,28 +6,28 @@ const InfoSection = () => {
     const infoItems = [
         {
             icon: <FaShippingFast className="text-3xl text-red-600"/>,
-            title: 'Free Shipping',
-            description: 'Get your orders delivered with no extra cost',
+            title: 'Domicilio gratis',
+            description: 'Domicilios sin ningún costo adicional',
         },
         {
             icon: <FaHeadset className="text-3xl text-red-600"/>,
-            title: 'Support 24/7',
-            description: 'We are here to assist you anytime',
+            title: 'Soporte 24/7',
+            description: 'Estamos para asistirte en cualquier momento',
         },
         {
             icon: <FaMoneyBillWave className="text-3xl text-red-600"/>,
-            title: 'Support 24/7',
-            description: 'Full refund if you are not satisfied',
+            title: 'Garantía',
+            description: 'Rembolso o cambio de producto si no estás satisfecho',
         }, 
         {
             icon: <FaLock className="text-3xl text-red-600"/>,
-            title: 'Payment Secure',
-            description: 'Your payment information is safe with us',
+            title: 'Pago seguro',
+            description: 'Tu información de pago esta protegida con nosotros',
         },
         {
             icon: <FaTag className="text-3xl text-red-600"/>,
-            title: 'Discount',
-            description: 'Enjoy the best prices on our products',
+            title: 'Descuentos',
+            description: 'Disfruta de los mejores precios',
         },
     ];
 
