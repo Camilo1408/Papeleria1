@@ -38,8 +38,8 @@ const Footer = () => {
                     </div>
                     <form className="flex items-center justify-center mt-8">
                         <input type="email" placeholder="Ingresa tu correo" 
-                        className="w-full p-2 rounded-lg bg-gray-800 border border-gray-600" />
-                        <button className="bg-red-600 text-white px-4 py-2 rou nded-r-lg">Suscribirse</button>
+                        className="w-full p-2 rounded-l-lg bg-gray-800 border border-gray-600" />
+                        <button className="bg-red-600 text-white px-4 py-2 rounded-r-lg">Suscribirse</button>
                     </form>
                 </div>
             </div>
