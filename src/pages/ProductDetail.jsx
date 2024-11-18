@@ -3,11 +3,22 @@ import { useEffect, useState } from "react"
 import { FaCarSide, FaQuestion } from "react-icons/fa"
 import { useSelector } from "react-redux"
 import { useParams } from "react-router-dom"
+import { useDispatch } from "react-redux";
+import { addToCart } from "../redux/cartSlice";
+
 
 const ProductDetail = () => {
     const {id} = useParams()
     const products = useSelector(state=>state.product.products)
     const [product, setProduct] = useState()
+
+    const dispatch = useDispatch()
+    const handleAddToCart = (e, product) =>{
+        e.stopPropagation()
+        e.preventDefault()
+        dispatch(addToCart(product))
+        alert("Product Added Succesfully!")
+    }
 
     useEffect(
         ()=>{
@@ -35,13 +46,8 @@ const ProductDetail = () => {
                     </p>
 
                     <div className="flex items-center mb-4 gap-x-2">
-                        <input 
-                        id="quantity"
-                        type="number"
-                        min="1"
-                        className="border p-1 w-16"
-                        />
-                        <button className="bg-red-600 text-white py-1.5 px-4 hover:bg-red-800">
+                        
+                        <button className="bg-red-600 text-white py-1.5 px-4 hover:bg-red-800" onClick={(e) => handleAddToCart(e, product)}>
                             Add to Cart
                         </button>
                     </div>
