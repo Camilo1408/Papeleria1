@@ -71,7 +71,7 @@ const Navbar = () =>{
                 <Link to="/shop" className="hover:underline">
                     Tienda
                 </Link>
-                <Link to="/" className="hover:underline">
+                <Link to="/Contact" className="hover:underline">
                     Contacto
                 </Link>
                 <Link to="/" className="hover:underline">

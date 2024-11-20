@@ -10,6 +10,7 @@ import Order from "./pages/Order"
 import { useState } from "react"
 import FilterData from "./pages/FilterData"
 import ProductDetail from "./pages/ProductDetail"
+import Contact from "./pages/Contact"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/shop" element={<Shop />}></Route>
+        <Route path="/Contact" element={<Contact />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
         <Route path="/checkout" element={<Checkout setOrder={setOrder}/>}></Route>
         <Route path="/order-confirmation" element={<Order order={order}/>}></Route>
