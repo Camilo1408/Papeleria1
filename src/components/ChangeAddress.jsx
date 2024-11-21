@@ -18,11 +18,11 @@ const ChangeAddress = ({setAddress, setIsModelOpen}) => {
             <div className="flex justify-end">
                 <button className="bg-gray-500 text-white py-2 px-4 rounded mr-2"
                 onClick={() => setIsModelOpen(false)}>
-                    Cancel
+                    Cancelar
                 </button>
                 <button className="bg-blue-500 text-white py-2 px-4 rounded"
                 onClick={onClose}>
-                    Save Address
+                    Guardar dirección
                 </button>
             </div>
         </div>
