@@ -20,7 +20,7 @@ const Cart = () => {
         <div className="container mx-auto py-8 min-h-96 px-4 md:px-16 lg:px-24">
             {cart.products.length > 0 ? (
                 <div>
-                    <h3 className="text-2xl font-semibold mb-4">SHOPPING CART</h3>
+                    <h3 className="text-2xl font-semibold mb-4">Carrito de compras</h3>
                     <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-10 mt-8">
                         <div className="md:w-2/3">
                             {/* Encabezado de la tabla */}
