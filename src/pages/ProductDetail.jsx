@@ -5,7 +5,7 @@ import { useSelector } from "react-redux"
 import { useParams } from "react-router-dom"
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/cartSlice";
-
+import Swal from 'sweetalert2';
 
 const ProductDetail = () => {
     const {id} = useParams()
@@ -17,7 +17,20 @@ const ProductDetail = () => {
         e.stopPropagation()
         e.preventDefault()
         dispatch(addToCart(product))
-        alert("Product Added Succesfully!")
+        
+        Swal.fire({
+            icon: 'success',
+            title: '¡Producto agregado!',
+            text: `Has agregado ${product.name} al carrito.`,
+            confirmButtonText: 'Aceptar',
+            confirmButtonColor: '#3085d6',
+            background: '#f0f8ff',
+            iconColor: '#1e90ff',
+            customClass: {
+              title: 'font-bold text-lg',
+              content: 'text-base',
+            },
+          });
     }
 
     useEffect(
