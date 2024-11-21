@@ -11,7 +11,7 @@ const ProductCard = ({product}) => {
         e.stopPropagation()
         e.preventDefault()
         dispatch(addToCart(product))
-        alert("Product Added Succesfully!")
+        alert("El producto se agrego al carrito correctamento!")
     }
     return (
         <Link to={`/product/${product.id}`}>
@@ -35,7 +35,7 @@ const ProductCard = ({product}) => {
                             group text-white text-sm rounded-full hover:w-32 hover:bg-red-700 transition-all duration-100"
                             onClick={(e) => handleAddToCart(e, product)}>
                 <span className="group-hover:hidden">+</span>
-                <span className="hidden group-hover:block">Add to cart</span>
+                <span className="hidden group-hover:block">Agregar al carrito</span>
             </div>
         </div>
         </Link>
