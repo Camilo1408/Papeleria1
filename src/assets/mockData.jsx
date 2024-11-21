@@ -96,162 +96,162 @@ export const mockData = [
     {
         id:11,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Cuadernos Scribe",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Norma",
+        description: "Cuadernos duraderos con hojas de alta calidad, perfectos para uso escolar o profesional."
     },
     {
         id:12,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Archivador de anillas Norma A4",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Norma",
+        description: "Carpeta de anillas resistente, ideal para organizar documentos."
     },
     {
         id:13,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Carpeta tipo escolar de plástico",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Norma",
+        description: "Carpeta liviana para guardar y transportar trabajos escolares."
     },
     {
         id:14,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Lápices de grafito Norma HB",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Norma",
+        description: "Lápices tradicionales con buena resistencia y calidad de escritura."
     },
     {
         id:15,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Cuaderno profesional Norma Advance",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Norma",
+        description: "Cuaderno premium con diseño elegante y hojas de gramaje alto."
     },
     {
         id:16,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Marcadores permanentes Fine Point",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Sharpie",
+        description: "Marcadores versátiles con punta fina y tinta permanente."
     },
     {
         id:17,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Marcadores permanentes Ultra Fine Point",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Sharpie",
+        description: "Versión de punta ultrafina para detalles precisos en diversas superficies."
     },
     {
         id:18,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Marcadores Paint Oil-Based",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Sharpie",
+        description: "Marcadores de pintura al óleo ideales para vidrio, metal y cerámica."
     },
     {
         id:19,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Sharpie S-Note Creative Markers",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Sharpie",
+        description: " Marcadores dobles que funcionan como resaltadores y bolígrafos."
     },
     {
         id:20,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Sharpie Highlighter Fluorescent",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Sharpie",
+        description: "Resaltadores brillantes y duraderos que no traspasan el papel."
     },
     {
         id:21,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "FX-991EX",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Casio",
+        description: "Calculadora científica avanzada con pantalla de alta resolución y múltiples funciones."
     },
     {
         id:22,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Reloj digital Casio F91W",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Casio",
+        description: "Reloj clásico, ligero y duradero con funciones básicas."
     },
     {
         id:23,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "FX-CG50",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Casio",
+        description: "Calculadora gráfica con colores y funciones para matemáticas avanzadas."
     },
     {
         id:24,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Teclado musical CT-S200",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Casio",
+        description: " Teclado portátil con 61 teclas y conectividad para principiantes."
     },
     {
         id:25,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Reloj G-Shock GA-2100",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Casio",
+        description: " Reloj resistente a golpes y al agua, con diseño moderno y funcional."
     },
     {
         id:26,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Polychromos",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Faber",
+        description: " Lápices de colores de calidad profesional, con pigmentos intensos y trazos suaves."
     },
     {
         id:27,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Acuarelables Albrecht Dürer",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Faber",
+        description: " Lápices que se pueden mezclar con agua para crear efectos de acuarela."
     },
     {
         id:28,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Castell 9000",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Faber",
+        description: " Lápices de grafito de alta calidad para dibujo técnico y artístico."
     },
     {
         id:29,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Pitt Artist Pen",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Faber",
+        description: "Marcadores con tinta de archivo, perfectos para ilustración y caligrafía."
     },
     {
         id:30,
         image: Image1,
-        name: "Marcadores permanentes Intensity",
+        name: "Borradores Dust-Free",
         price: 49.99,
-        category: "BIC",
-        description: " Marcadores de colores intensos para superficies múltiples."
+        category: "Faber",
+        description: " Borradores que generan menos residuos y ofrecen una limpieza eficiente."
     },
 
 ];
