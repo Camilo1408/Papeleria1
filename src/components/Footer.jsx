@@ -21,10 +21,10 @@ const Footer = () => {
                             <Link to="/shop" className="hover:underline">Tienda</Link>
                         </li>
                         <li>
-                            <Link to="/contact" className="hover:underline">Contacto</Link>
+                            <Link to="/Contact" className="hover:underline">Contacto</Link>
                         </li>
                         <li>
-                            <Link to="/about" className="hover:underline">Sobre nosotros</Link>
+                            <Link to="/aboutus" className="hover:underline">Sobre nosotros</Link>
                         </li>
                     </ul>
                 </div>
