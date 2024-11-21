@@ -1,9 +1,9 @@
 import { ProductList } from "../components/ProductList"
 
-export const FakeStore = () => {
+export const LibreriaAPI = () => {
   return (
     <ProductList></ProductList>
   )
 }
 
-export default FakeStore
+export default LibreriaAPI

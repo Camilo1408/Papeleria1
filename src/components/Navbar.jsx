@@ -77,7 +77,7 @@ const Navbar = () =>{
                 <Link to="/aboutus" className="hover:underline">
                     Nosotros
                 </Link>
-                <Link to="/fakestore" className="hover:underline">
+                <Link to="/libreriaapi" className="hover:underline">
                     LibreriaAPI
                 </Link>
             </div>
