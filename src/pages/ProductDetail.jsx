@@ -1,23 +1,23 @@
-
-import { useEffect, useState } from "react"
-import { FaCarSide, FaQuestion } from "react-icons/fa"
-import { useSelector } from "react-redux"
-import { useParams } from "react-router-dom"
-import { useDispatch } from "react-redux";
+import { useEffect, useState } from "react";
+import { FaCarSide, FaQuestion } from "react-icons/fa";
+import { useSelector, useDispatch } from "react-redux";
+import { useParams } from "react-router-dom";
 import { addToCart } from "../redux/cartSlice";
-import Swal from 'sweetalert2';
+import Swal from 'sweetalert2'; // Importar SweetAlert2
 
 const ProductDetail = () => {
-    const {id} = useParams()
-    const products = useSelector(state=>state.product.products)
-    const [product, setProduct] = useState()
+    const { id } = useParams();
+    const products = useSelector(state => state.product.products);
+    const [product, setProduct] = useState();
 
-    const dispatch = useDispatch()
-    const handleAddToCart = (e, product) =>{
-        e.stopPropagation()
-        e.preventDefault()
-        dispatch(addToCart(product))
-        
+    const dispatch = useDispatch();
+
+    const handleAddToCart = (e, product) => {
+        e.stopPropagation();
+        e.preventDefault();
+        dispatch(addToCart(product));
+
+        // Mostrar alerta bonita usando SweetAlert2
         Swal.fire({
             icon: 'success',
             title: '¡Producto agregado!',
@@ -27,29 +27,26 @@ const ProductDetail = () => {
             background: '#f0f8ff',
             iconColor: '#1e90ff',
             customClass: {
-              title: 'font-bold text-lg',
-              content: 'text-base',
+                title: 'font-bold text-lg',
+                content: 'text-base',
             },
-          });
-    }
+        });
+    };
 
-    useEffect(
-        ()=>{
+    useEffect(() => {
         const newProduct = products.find(
             (product) => product.id === parseInt(id)
         );
         setProduct(newProduct);
-    }, 
-    [id, products]
-);
+    }, [id, products]);
 
-    if(!product) return <div>Cargando ...</div>
+    if (!product) return <div>Cargando ...</div>;
 
-    return(
+    return (
         <div className="container mx-auto py-8 px-4 md:px-16 lg:px-24">
             <div className="flex flex-col md:flex-row gap-x-16">
                 <div className="md:w-1/2 py-4 shadow-md md:px-8 h-96 flex justify-center">
-                    <img src={product.image} alt={product.name} className="h-full"/>
+                    <img src={product.image} alt={product.name} className="h-full" />
                 </div>
 
                 <div className="md:w-1/2 p-4 shadow-md md:p-16 flex flex-col items-center gap-y-2">
@@ -59,8 +56,10 @@ const ProductDetail = () => {
                     </p>
 
                     <div className="flex items-center mb-4 gap-x-2">
-                        
-                        <button className="bg-red-600 text-white py-1.5 px-4 hover:bg-red-800" onClick={(e) => handleAddToCart(e, product)}>
+                        <button
+                            className="bg-red-600 text-white py-1.5 px-4 hover:bg-red-800"
+                            onClick={(e) => handleAddToCart(e, product)}
+                        >
                             Agregar al carrito
                         </button>
                     </div>
@@ -74,14 +73,14 @@ const ProductDetail = () => {
                             Haz una pregunta
                         </p>
                     </div>
-                </div>                
+                </div>
             </div>
             <div className="mt-8">
-                <h3 className="text-xl font-bold mb-2">Descripcion del producto</h3>
-                <p className="">{product.description}</p>
+                <h3 className="text-xl font-bold mb-2">Descripción del producto</h3>
+                <p>{product.description}</p>
             </div>
-        </div> 
+        </div>
     );
 };
 
-export default ProductDetail
+export default ProductDetail;
