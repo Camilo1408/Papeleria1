@@ -18,6 +18,9 @@ const productSlice = createSlice({
             state.filteredData = state.products.filter(product => 
                 product.name.toLowerCase().includes(state.searchTerm.toLowerCase())
             )
+            state.filteredData = state.products.filter(product => 
+                product.category.toLowerCase().includes(state.searchTerm.toLowerCase())
+            )
         }
     },
 })
