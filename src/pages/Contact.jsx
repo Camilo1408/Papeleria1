@@ -26,15 +26,15 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
                 <div className="mb-4">
                     <label className="block text-white text-sm font-semibold mb-2" >Nombre:</label>
-                    <input placeholder="Ingresa tu nombre" className="w-full px-3 py-2 border rounded-lg bg-gray-600 focus:outline-none focus:border-blue-500 " required type="text" name='user_name' />
+                    <input placeholder="Ingresa tu nombre" className="w-full px-3 py-2 border text-white rounded-lg bg-gray-600 focus:outline-none focus:border-blue-500 " required type="text" name='user_name' />
                 </div>
                 <div className="mb-4">
                     <label className="block text-white text-sm font-semibold mb-2" htmlFor="">Email:</label>
-                    <input placeholder="Ingresa tu email" className="w-full px-3 py-2 border rounded-lg bg-gray-600 focus:outline-none focus:border-blue-500 " required type="text"  name='user_email'/>
+                    <input placeholder="Ingresa tu email" className="w-full px-3 py-2 border text-white rounded-lg bg-gray-600 focus:outline-none focus:border-blue-500 " required type="text"  name='user_email'/>
                 </div>
                 <div className="mb-4">
                     <label className="block text-white text-sm font-semibold mb-2" htmlFor="">Mensaje:</label>
-                    <textarea rows='4'  placeholder="Deja tu mensaje" className="w-full px-3 py-2 border rounded-lg bg-gray-600 focus:outline-none focus:border-blue-500 " required type="text"  name='message'/>
+                    <textarea rows='4'  placeholder="Deja tu mensaje" className="w-full px-3 py-2 border text-white rounded-lg bg-gray-600 focus:outline-none focus:border-blue-500 " required type="text"  name='message'/>
                 </div>
                 <div className="flex justify-center items-center">
                     <button type="submit" className="bg-red-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-red-700 focus:outline-white"
