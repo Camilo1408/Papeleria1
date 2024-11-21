@@ -38,7 +38,7 @@ export const mockData = [
         id:1,
         image: Image9,
         name: "Bolígrafo InkJoy Gel Pen",
-        price: 29.99,
+        price: 5000,
         category: "PaperMate",
         description: "Bolígrafo de tinta gel que se seca rápidamente, ideal para escritura fluida y sin manchas."
 
@@ -47,7 +47,7 @@ export const mockData = [
         id:2,
         image: Image8,
         name: "Bolígrafo Profile Retractable Ballpoint",
-        price: 39.99,
+        price: 4000,
         category: "PaperMate",
         description: "Bolígrafo retráctil con tinta suave y colores vibrantes."
     },
@@ -55,7 +55,7 @@ export const mockData = [
         id:3,
         image: Image7,
         name: "Lápices mecánicos Clearpoint",
-        price: 39.99,
+        price: 6000,
         category: "PaperMate",
         description: "Lápices mecánicos ergonómicos con borrador grande, ideales para estudiantes."
     },
@@ -63,7 +63,7 @@ export const mockData = [
         id:4,
         image: Image6,
         name: "Corrector líquido Liquid Paper",
-        price: 39.99,
+        price: 3500,
         category: "PaperMate",
         description: "Corrector blanco de secado rápido para cubrir errores en papel."
     },
@@ -71,7 +71,7 @@ export const mockData = [
         id:5,
         image: Image10,
         name: "Marcadores Flair Felt Tip Pens",
-        price: 49.99,
+        price: 5500,
         category: "PaperMate",
         description: "Marcadores de punta de fieltro que no traspasan el papel, perfectos para escritura creativa."
     },
@@ -79,7 +79,7 @@ export const mockData = [
         id:6,
         image: Image4,
         name: "Bolígrafo Cristal Ballpoint Pen",
-        price: 49.99,
+        price: 800,
         category: "BIC",
         description: "Bolígrafo económico y confiable con tinta de larga duración."
     },
@@ -87,7 +87,7 @@ export const mockData = [
         id:7,
         image: Image5,
         name: "Bolígrafo Gel-ocity Quick Dry Gel Pen",
-        price: 49.99,
+        price: 3000,
         category: "BIC",
         description: " Bolígrafo de gel de secado rápido para una escritura suave y sin manchas."
     },
@@ -95,7 +95,7 @@ export const mockData = [
         id:8,
         image: Image3,
         name: "Encendedor BIC Classic Lighter (accesorio popular de la marca)",
-        price: 49.99,
+        price: 2000,
         category: "BIC",
         description: " Encendedor duradero, compacto y confiable."
     },
@@ -103,7 +103,7 @@ export const mockData = [
         id:9,
         image: Image2,
         name: "Lápiz mecánico BIC Xtra-Sparkle",
-        price: 49.99,
+        price: 2500,
         category: "BIC",
         description: " Lápices mecánicos con diseños coloridos y minas resistentes."
     },
@@ -111,7 +111,7 @@ export const mockData = [
         id:10,
         image: Image1,
         name: "Marcadores permanentes Intensity",
-        price: 49.99,
+        price: 4000,
         category: "BIC",
         description: " Marcadores de colores intensos para superficies múltiples."
     },
@@ -119,7 +119,7 @@ export const mockData = [
         id:11,
         image: Image11,
         name: "Cuadernos Scribe",
-        price: 49.99,
+        price: 15000,
         category: "Norma",
         description: "Cuadernos duraderos con hojas de alta calidad, perfectos para uso escolar o profesional."
     },
@@ -127,7 +127,7 @@ export const mockData = [
         id:12,
         image: Image12,
         name: "Archivador de anillas Norma A4",
-        price: 49.99,
+        price: 10000,
         category: "Norma",
         description: "Carpeta de anillas resistente, ideal para organizar documentos."
     },
@@ -135,7 +135,7 @@ export const mockData = [
         id:13,
         image: Image13,
         name: "Carpeta tipo escolar de plástico",
-        price: 49.99,
+        price: 3000,
         category: "Norma",
         description: "Carpeta liviana para guardar y transportar trabajos escolares."
     },
@@ -143,7 +143,7 @@ export const mockData = [
         id:14,
         image: Image14,
         name: "Lápices de grafito Norma HB",
-        price: 49.99,
+        price: 1000,
         category: "Norma",
         description: "Lápices tradicionales con buena resistencia y calidad de escritura."
     },
@@ -151,7 +151,7 @@ export const mockData = [
         id:15,
         image: Image15,
         name: "Cuaderno profesional Norma Advance",
-        price: 49.99,
+        price: 8000,
         category: "Norma",
         description: "Cuaderno premium con diseño elegante y hojas de gramaje alto."
     },
@@ -159,7 +159,7 @@ export const mockData = [
         id:16,
         image: Image16,
         name: "Marcadores permanentes Fine Point",
-        price: 49.99,
+        price: 3700,
         category: "Sharpie",
         description: "Marcadores versátiles con punta fina y tinta permanente."
     },
@@ -167,7 +167,7 @@ export const mockData = [
         id:17,
         image: Image17,
         name: "Marcadores permanentes Ultra Fine Point",
-        price: 49.99,
+        price: 4000,
         category: "Sharpie",
         description: "Versión de punta ultrafina para detalles precisos en diversas superficies."
     },
@@ -175,7 +175,7 @@ export const mockData = [
         id:18,
         image: Image18,
         name: "Marcadores Paint Oil-Based",
-        price: 49.99,
+        price: 6000,
         category: "Sharpie",
         description: "Marcadores de pintura al óleo ideales para vidrio, metal y cerámica."
     },
@@ -183,7 +183,7 @@ export const mockData = [
         id:19,
         image: Image19,
         name: "Sharpie S-Note Creative Markers",
-        price: 49.99,
+        price: 5000,
         category: "Sharpie",
         description: " Marcadores dobles que funcionan como resaltadores y bolígrafos."
     },
@@ -191,7 +191,7 @@ export const mockData = [
         id:20,
         image: Image20,
         name: "Sharpie Highlighter Fluorescent",
-        price: 49.99,
+        price: 2500,
         category: "Sharpie",
         description: "Resaltadores brillantes y duraderos que no traspasan el papel."
     },
@@ -199,7 +199,7 @@ export const mockData = [
         id:21,
         image: Image21,
         name: "FX-991EX",
-        price: 49.99,
+        price: 135000,
         category: "Casio",
         description: "Calculadora científica avanzada con pantalla de alta resolución y múltiples funciones."
     },
@@ -207,7 +207,7 @@ export const mockData = [
         id:22,
         image: Image22,
         name: "Reloj digital Casio F91W",
-        price: 49.99,
+        price: 50000,
         category: "Casio",
         description: "Reloj clásico, ligero y duradero con funciones básicas."
     },
@@ -215,7 +215,7 @@ export const mockData = [
         id:23,
         image: Image23,
         name: "FX-CG50",
-        price: 49.99,
+        price: 450000,
         category: "Casio",
         description: "Calculadora gráfica con colores y funciones para matemáticas avanzadas."
     },
@@ -223,7 +223,7 @@ export const mockData = [
         id:24,
         image: Image24,
         name: "Teclado musical CT-S200",
-        price: 49.99,
+        price: 600000,
         category: "Casio",
         description: " Teclado portátil con 61 teclas y conectividad para principiantes."
     },
@@ -231,7 +231,7 @@ export const mockData = [
         id:25,
         image: Image25,
         name: "Reloj G-Shock GA-2100",
-        price: 49.99,
+        price: 400000,
         category: "Casio",
         description: " Reloj resistente a golpes y al agua, con diseño moderno y funcional."
     },
@@ -239,7 +239,7 @@ export const mockData = [
         id:26,
         image: Image26,
         name: "Polychromos",
-        price: 49.99,
+        price: 7000,
         category: "Faber",
         description: " Lápices de colores de calidad profesional, con pigmentos intensos y trazos suaves."
     },
@@ -247,7 +247,7 @@ export const mockData = [
         id:27,
         image: Image27,
         name: "Acuarelables Albrecht Dürer",
-        price: 49.99,
+        price: 8000,
         category: "Faber",
         description: " Lápices que se pueden mezclar con agua para crear efectos de acuarela."
     },
@@ -255,7 +255,7 @@ export const mockData = [
         id:28,
         image: Image28,
         name: "Castell 9000",
-        price: 49.99,
+        price: 2000,
         category: "Faber",
         description: " Lápices de grafito de alta calidad para dibujo técnico y artístico."
     },
@@ -263,7 +263,7 @@ export const mockData = [
         id:29,
         image: Image29,
         name: "Pitt Artist Pen",
-        price: 49.99,
+        price: 5000,
         category: "Faber",
         description: "Marcadores con tinta de archivo, perfectos para ilustración y caligrafía."
     },
@@ -271,7 +271,7 @@ export const mockData = [
         id:30,
         image: Image30,
         name: "Borradores Dust-Free",
-        price: 49.99,
+        price: 1000,
         category: "Faber",
         description: " Borradores que generan menos residuos y ofrecen una limpieza eficiente."
     },
