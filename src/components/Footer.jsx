@@ -8,11 +8,9 @@ const Footer = () => {
                 <div>
                     <h3 className="text-xl font-semibold">Papeleria</h3>
                     <p className="mt-4">
-<<<<<<< HEAD
+
                     Usco Papelería - Todo lo que necesitas para estudiar, trabajar y crear. Calidad, variedad y servicio al alcance de tu mano. ¡Visítanos hoy!
-=======
-                        Papelería ABC - Todo lo que necesitas para estudiar, trabajar y crear. Calidad, variedad y servicio al alcance de tu mano. ¡Visítanos hoy!
->>>>>>> f4b06a7eec57dff775071503b9ca67fd852a2929
+
                     </p>
                 </div>
                 <div className="flex flex-col md:items-center">
