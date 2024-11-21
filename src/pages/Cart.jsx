@@ -25,12 +25,12 @@ const Cart = () => {
                         <div className="md:w-2/3">
                             {/* Encabezado de la tabla */}
                             <div className="flex justify-between border-b items-center mb-4 text-xs font-bold">
-                                <p>PRODUCTS</p>
+                                <p>PRODUCTOS</p>
                                 <div className="flex space-x-8">
-                                    <p>PRICE</p>
-                                    <p>QUANTITY</p>   
+                                    <p>PRECIO</p>
+                                    <p>CANTIDAD</p>   
                                     <p>SUBTOTAL</p>
-                                    <p>REMOVE</p>
+                                    <p>BORRAR</p>
                                 </div>
                             </div>
 
@@ -76,33 +76,33 @@ const Cart = () => {
 
                         {/* Resumen del carrito */}
                         <div className="md:w-1/3 bg-white p-6 rounded-lg shadow-md border mt-6 md:mt-0">
-                            <h3 className="text-sm font-semibold mb-5">CART TOTALS</h3>
+                            <h3 className="text-sm font-semibold mb-5">TOTAL CARRITO</h3>
                             <div className="flex justify-between mb-5 border-b pb-1">
-                                <span className="text-sm">TOTAL ITEMS:</span>
+                                <span className="text-sm">ITEMS TOTALES:</span>
                                 <span>{cart.totalQuantity}</span>
                             </div>
                             <div className="mb-4 border-b pb-2">
-                                <p>Shipping:</p>
+                                <p>Envío:</p>
                                 <p className="ml-2">
-                                    Shipping to{" "} 
+                                    Enviar a{" "} 
                                     <span className="text-xs font-bold">{address}</span>
                                 </p>
                                 <button 
                                     className="text-blue-500 hover:underline mt-1 ml-2"
                                     onClick={()=> setIsModelOpen(true)}
                                 >
-                                    Change Address
+                                    Cambiar dirección
                                 </button>
                             </div>
                             <div className="flex justify-between mb-4">
-                                <span>Total Price: </span>
+                                <span>Precio total: </span>
                                 <span>${cart.totalPrice.toFixed(2)}</span>
                             </div>
                             <button
                                 className="w-full bg-red-600 text-white py-2 hover:bg-red-800"
                                 onClick={() => navigate('/checkout')}
                             >
-                                Proceed to checkout
+                                Continuar al pago
                             </button>
                         </div>
                     </div>
