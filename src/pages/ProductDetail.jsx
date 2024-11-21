@@ -30,7 +30,7 @@ const ProductDetail = () => {
     [id, products]
 );
 
-    if(!product) return <div>Loading ...</div>
+    if(!product) return <div>Cargando ...</div>
 
     return(
         <div className="container mx-auto py-8 px-4 md:px-16 lg:px-24">
@@ -48,24 +48,24 @@ const ProductDetail = () => {
                     <div className="flex items-center mb-4 gap-x-2">
                         
                         <button className="bg-red-600 text-white py-1.5 px-4 hover:bg-red-800" onClick={(e) => handleAddToCart(e, product)}>
-                            Add to Cart
+                            Agregar al carrito
                         </button>
                     </div>
                     <div className="flex flex-col gap-y-4 mt-4">
                         <p className="flex items-center">
                             <FaCarSide className="mr-1" />
-                            Delivery & Return
+                            Domicilios y Reembolsos
                         </p>
                         <p className="flex items-center">
                             <FaQuestion className="mr-1" />
-                            Ask a Question
+                            Haz una pregunta
                         </p>
                     </div>
                 </div>                
             </div>
             <div className="mt-8">
-                <h3 className="text-xl font-bold mb-2">Product Description</h3>
-                <p>Product description will goes here.</p>
+                <h3 className="text-xl font-bold mb-2">Descripcion del producto</h3>
+                <p>La descripcion del producto ira aqui</p>
             </div>
         </div> 
     );

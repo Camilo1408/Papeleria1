@@ -9,14 +9,7 @@ import Image8 from "./Images/robot.jpg";
 import Image9 from "./Images/wwatch.jpg";
 import Image10 from "./Images/shirt.jpg";
 
-export const Categorias = [
-    "Electronics",
-    "Fashion",
-    "Home & Kitchen",
-    "Beauty",
-    "Sports",
-    "Automotive",
-];
+
 
 export const mockData = [
     {
@@ -24,42 +17,50 @@ export const mockData = [
         image: Image9,
         name: "Producto 1",
         price: 29.99,
+        category: "Colores"
+
     },
     {
         id:2,
         image: Image8,
         name: "Producto 2",
         price: 39.99,
+        category: "Colores"
     },
     {
         id:3,
         image: Image7,
         name: "Producto 3",
         price: 39.99,
+        category: "Marcadores"
     },
     {
         id:4,
         image: Image6,
         name: "Producto 4",
         price: 39.99,
+        category: "Marcadores"
     },
     {
         id:5,
         image: Image10,
         name: "Producto 5",
         price: 49.99,
+        category: "Cuadernos"
     },
     {
         id:6,
         image: Image4,
         name: "Producto 6",
         price: 49.99,
+        category: "Cuadernos"
     },
     {
         id:7,
         image: Image5,
         name: "Producto 7",
         price: 49.99,
+        category: "Utiles escolares"
     },
     {
         id:8,
@@ -79,5 +80,7 @@ export const mockData = [
         name: "Producto 10",
         price: 49.99,
     },
-]
-    
+];
+
+export default mockData;
+
