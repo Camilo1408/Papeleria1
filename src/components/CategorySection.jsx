@@ -3,11 +3,17 @@ import Slider from "react-slick";
 import Norma from "../assets/Images/norma.png";
 import Sharpie from "../assets/Images/sharpie.jpg";
 import Cassio from "../assets/Images/casio.jpg";
+import FaberCastell from "../assets/Images/fabercastell.jpg";
+import PaperMate from "../assets/Images/papermate.jpeg";
+import Bic from "../assets/Images/bic.jpeg";
 
 const marcas = [
   { title: '', imageUrl: Norma },
   { title: '', imageUrl: Sharpie },
   { title: '', imageUrl: Cassio },
+  { title: '', imageUrl: FaberCastell },
+  { title: '', imageUrl: PaperMate },
+  { title: '', imageUrl: Bic },
   // Puedes agregar más imágenes aquí
 ];
 
@@ -21,7 +27,7 @@ const CategorySection = () => {
     slidesToShow: 3, // Número de elementos visibles
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024,
@@ -42,7 +48,6 @@ const CategorySection = () => {
 
   return (
     <div className="container mx-auto">
-      <h2 className="text-3xl font-semibold text-center text-gray-900 mb-8">Marcas</h2>
       <Slider {...settings}>
         {marcasList.map((marca, index) => (
           <div key={index} className="relative h-64 transform transition-transform duration-300 hover:scale-105 cursor-pointer">
