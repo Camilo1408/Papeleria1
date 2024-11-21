@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Slider from "react-slick";
 import Norma from "../assets/Images/norma.png";
-import Sharpie from "../assets/Images/sharpie.jpg";
+import Sharpie from "../assets/Images/sharpie.png";
 import Cassio from "../assets/Images/casio.jpg";
-import FaberCastell from "../assets/Images/fabercastell.jpg";
-import PaperMate from "../assets/Images/papermate.jpeg";
+import FaberCastell from "../assets/Images/fabercastell.svg";
+import PaperMate from "../assets/Images/papermate.png";
 import Bic from "../assets/Images/bic.jpeg";
 
 const marcas = [
