@@ -8,7 +8,7 @@ const Footer = () => {
                 <div>
                     <h3 className="text-xl font-semibold">Papeleria</h3>
                     <p className="mt-4">
-                    Papelería ABC - Todo lo que necesitas para estudiar, trabajar y crear. Calidad, variedad y servicio al alcance de tu mano. ¡Visítanos hoy!
+                        Papelería ABC - Todo lo que necesitas para estudiar, trabajar y crear. Calidad, variedad y servicio al alcance de tu mano. ¡Visítanos hoy!
                     </p>
                 </div>
                 <div className="flex flex-col md:items-center">
@@ -43,6 +43,39 @@ const Footer = () => {
                     </form>
                 </div>
             </div>
+
+                        {/* Métodos de pago con fondo claro */}
+                        <div className="mt-8 bg-gray-100 py-4 rounded-lg">
+                <h4 className="text-lg font-semibold text-center text-gray-800">Métodos de pago</h4>
+                <ul className="flex flex-wrap justify-center gap-6 mt-4">
+                    <li>
+                        <img src="https://panamericana.vtexassets.com/arquivos/logo-pse-16.svg" alt="PSE" className="w-28" />
+                    </li>
+                    <li>
+                        <img src="https://panamericana.vtexassets.com/assets/vtex.file-manager-graphql/images/8821a405-2c79-442b-8b48-f96b02727e32___0009479117fd752221cbbf203b7ab1ad.svg" alt="Logo 2" className="w-28" />
+                    </li>
+                    <li>
+                        <img src="https://panamericana.vtexassets.com/arquivos/logo-master-13.svg" alt="MasterCard" className="w-28" />
+                    </li>
+                    <li>
+                        <img src="https://panamericana.vtexassets.com/arquivos/logo-visa-14.svg" alt="Visa" className="w-28" />
+                    </li>
+                    <li>
+                        <img src="https://panamericana.vtexassets.com/arquivos/logo-diners-15.svg" alt="Diners" className="w-28" />
+                    </li>
+                    <li>
+                        <img src="https://panamericana.vtexassets.com/arquivos/logo-american-17.svg" alt="American Express" className="w-28" />
+                    </li>
+                    <li>
+                        <img src="https://panamericana.vtexassets.com/arquivos/logo-nequi-18.svg" alt="Nequi" className="w-28" />
+                    </li>
+                    <li>
+                        <img src="https://panamericana.vtexassets.com/arquivos/logo-mercado-pagp-2023-12.svg" alt="Mercado Pago" className="w-28" />
+                    </li>
+                </ul>
+            </div>
+
+
             <div className="mt-8 border-t border-gray-700 pt-4">
                 <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
                     <p>&copy; 2024 Papeleria Derechos reservados.</p>
