@@ -74,8 +74,8 @@ const Navbar = () =>{
                 <Link to="/Contact" className="hover:underline">
                     Contacto
                 </Link>
-                <Link to="/" className="hover:underline">
-                    Sobre nosotros
+                <Link to="/aboutus" className="hover:underline">
+                    Sobre Nosotros
                 </Link>
             </div>
             <Modal isModelOpen={isModelOpen} setIsModelOpen={setIsModelOpen}>

@@ -11,6 +11,7 @@ import { useState } from "react"
 import FilterData from "./pages/FilterData"
 import ProductDetail from "./pages/ProductDetail"
 import Contact from "./pages/Contact"
+import AboutUs from "./pages/AboutUs"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/shop" element={<Shop />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
+        <Route path="/aboutus" element={<AboutUs />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
         <Route path="/checkout" element={<Checkout setOrder={setOrder}/>}></Route>
         <Route path="/order-confirmation" element={<Order order={order}/>}></Route>
