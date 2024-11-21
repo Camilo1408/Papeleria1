@@ -75,10 +75,10 @@ const Navbar = () =>{
                     Contacto
                 </Link>
                 <Link to="/aboutus" className="hover:underline">
-                    Sobre Nosotros
+                    Nosotros
                 </Link>
                 <Link to="/fakestore" className="hover:underline">
-                    FakeStoreAPI
+                    LibreriaAPI
                 </Link>
             </div>
             <Modal isModelOpen={isModelOpen} setIsModelOpen={setIsModelOpen}>
