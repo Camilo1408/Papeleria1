@@ -8,6 +8,28 @@ import Image7 from "./Images/ClearPoint.webp";
 import Image8 from "./Images/BoligrafoProfile.webp";
 import Image9 from "./Images/BoligrafoInkJoy.webp";
 import Image10 from "./Images/FLair.webp";
+import Image11 from "./Images/CuadernoScribe.webp";
+import Image12 from "./Images/ArchivadorNorma.webp";
+import Image13 from "./Images/CarpetasNorma.webp";
+import Image14 from "./Images/LapicesNorma.webp";
+import Image15 from "./Images/CuadernoNorma.webp";
+import Image16 from "./Images/SharpieFinePoint.webp";
+import Image17 from "./Images/SharpieUltraFinePoint.webp";
+import Image18 from "./Images/SharpiePaint.webp";
+import Image19 from "./Images/SharpieSnote.webp";
+import Image20 from "./Images/SharpieResaltador.webp";
+import Image21 from "./Images/CasioCientifica.webp";
+import Image22 from "./Images/CasioRelojDigital.webp";
+import Image23 from "./Images/CasioGraficadora.webp";
+import Image24 from "./Images/CasioTeclado.webp";
+import Image25 from "./Images/CasioGshock.webp";
+import Image26 from "./Images/FabellPoly.webp";
+import Image27 from "./Images/FabellAcua.webp";
+import Image28 from "./Images/Fabell9000.webp";
+import Image29 from "./Images/FabellPitt.webp";
+import Image30 from "./Images/FabellDust.webp";
+
+
 
 
 
@@ -95,7 +117,7 @@ export const mockData = [
     },
     {
         id:11,
-        image: Image1,
+        image: Image11,
         name: "Cuadernos Scribe",
         price: 49.99,
         category: "Norma",
@@ -103,7 +125,7 @@ export const mockData = [
     },
     {
         id:12,
-        image: Image1,
+        image: Image12,
         name: "Archivador de anillas Norma A4",
         price: 49.99,
         category: "Norma",
@@ -111,7 +133,7 @@ export const mockData = [
     },
     {
         id:13,
-        image: Image1,
+        image: Image13,
         name: "Carpeta tipo escolar de plástico",
         price: 49.99,
         category: "Norma",
@@ -119,7 +141,7 @@ export const mockData = [
     },
     {
         id:14,
-        image: Image1,
+        image: Image14,
         name: "Lápices de grafito Norma HB",
         price: 49.99,
         category: "Norma",
@@ -127,7 +149,7 @@ export const mockData = [
     },
     {
         id:15,
-        image: Image1,
+        image: Image15,
         name: "Cuaderno profesional Norma Advance",
         price: 49.99,
         category: "Norma",
@@ -135,7 +157,7 @@ export const mockData = [
     },
     {
         id:16,
-        image: Image1,
+        image: Image16,
         name: "Marcadores permanentes Fine Point",
         price: 49.99,
         category: "Sharpie",
@@ -143,7 +165,7 @@ export const mockData = [
     },
     {
         id:17,
-        image: Image1,
+        image: Image17,
         name: "Marcadores permanentes Ultra Fine Point",
         price: 49.99,
         category: "Sharpie",
@@ -151,7 +173,7 @@ export const mockData = [
     },
     {
         id:18,
-        image: Image1,
+        image: Image18,
         name: "Marcadores Paint Oil-Based",
         price: 49.99,
         category: "Sharpie",
@@ -159,7 +181,7 @@ export const mockData = [
     },
     {
         id:19,
-        image: Image1,
+        image: Image19,
         name: "Sharpie S-Note Creative Markers",
         price: 49.99,
         category: "Sharpie",
@@ -167,7 +189,7 @@ export const mockData = [
     },
     {
         id:20,
-        image: Image1,
+        image: Image20,
         name: "Sharpie Highlighter Fluorescent",
         price: 49.99,
         category: "Sharpie",
@@ -175,7 +197,7 @@ export const mockData = [
     },
     {
         id:21,
-        image: Image1,
+        image: Image21,
         name: "FX-991EX",
         price: 49.99,
         category: "Casio",
@@ -183,7 +205,7 @@ export const mockData = [
     },
     {
         id:22,
-        image: Image1,
+        image: Image22,
         name: "Reloj digital Casio F91W",
         price: 49.99,
         category: "Casio",
@@ -191,7 +213,7 @@ export const mockData = [
     },
     {
         id:23,
-        image: Image1,
+        image: Image23,
         name: "FX-CG50",
         price: 49.99,
         category: "Casio",
@@ -199,7 +221,7 @@ export const mockData = [
     },
     {
         id:24,
-        image: Image1,
+        image: Image24,
         name: "Teclado musical CT-S200",
         price: 49.99,
         category: "Casio",
@@ -207,7 +229,7 @@ export const mockData = [
     },
     {
         id:25,
-        image: Image1,
+        image: Image25,
         name: "Reloj G-Shock GA-2100",
         price: 49.99,
         category: "Casio",
@@ -215,7 +237,7 @@ export const mockData = [
     },
     {
         id:26,
-        image: Image1,
+        image: Image26,
         name: "Polychromos",
         price: 49.99,
         category: "Faber",
@@ -223,7 +245,7 @@ export const mockData = [
     },
     {
         id:27,
-        image: Image1,
+        image: Image27,
         name: "Acuarelables Albrecht Dürer",
         price: 49.99,
         category: "Faber",
@@ -231,7 +253,7 @@ export const mockData = [
     },
     {
         id:28,
-        image: Image1,
+        image: Image28,
         name: "Castell 9000",
         price: 49.99,
         category: "Faber",
@@ -239,7 +261,7 @@ export const mockData = [
     },
     {
         id:29,
-        image: Image1,
+        image: Image29,
         name: "Pitt Artist Pen",
         price: 49.99,
         category: "Faber",
@@ -247,7 +269,7 @@ export const mockData = [
     },
     {
         id:30,
-        image: Image1,
+        image: Image30,
         name: "Borradores Dust-Free",
         price: 49.99,
         category: "Faber",
