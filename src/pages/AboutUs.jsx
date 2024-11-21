@@ -25,7 +25,7 @@ const AboutUs = () => {
             <div className="w-full md:w-2/4 text-center space-y-2">
                 <div>
                     <h3 className="text-5xl font-semibold text-gray-800">¿Que Puedes Encontrar</h3>
-                    <span className="text-gray-700 text-xl">Con Nostros?</span>
+                    <span className="text-gray-700 text-xl">Con Nosotros?</span>
                 </div>
                 <p>
                 ¡Libera tu creatividad con nuestra amplia variedad de productos de papelería! Desde colores vibrantes de las mejores marcas hasta papeles de diseño exclusivos, tenemos todo para tus proyectos. ¡Calidad y variedad en un solo lugar!
