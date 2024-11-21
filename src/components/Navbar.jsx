@@ -77,6 +77,9 @@ const Navbar = () =>{
                 <Link to="/" className="hover:underline">
                     Sobre nosotros
                 </Link>
+                <Link to="/fakestore" className="hover:underline">
+                    FakeStoreAPI
+                </Link>
             </div>
             <Modal isModelOpen={isModelOpen} setIsModelOpen={setIsModelOpen}>
                 {isLogin ? <Login openSignUp={openSignUp}/> : <Register openLogin={openLogin}/>}
