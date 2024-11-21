@@ -11,11 +11,8 @@ import { useState } from "react"
 import FilterData from "./pages/FilterData"
 import ProductDetail from "./pages/ProductDetail"
 import Contact from "./pages/Contact"
-<<<<<<< HEAD
 import AboutUs from "./pages/AboutUs"
-=======
 import FakeStore from "./pages/FakeStore"
->>>>>>> 7249012d9f80407028fdfedeb9b5034574cf1e4e
 
 
 function App() {
