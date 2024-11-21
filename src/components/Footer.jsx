@@ -10,7 +10,6 @@ const Footer = () => {
                     <p className="mt-4">
 
                     Usco Papelería - Todo lo que necesitas para estudiar, trabajar y crear. Calidad, variedad y servicio al alcance de tu mano. ¡Visítanos hoy!
-
                     </p>
                 </div>
                 <div className="flex flex-col md:items-center">
